@@ -1,0 +1,4 @@
+PassengerID,TicketID,LuggageType,Weight_kg,ExtraChargeApplies
+1,3,Checked,55,Yes
+1,4,Checked,10,No
+1,9,Checked,34,Yes

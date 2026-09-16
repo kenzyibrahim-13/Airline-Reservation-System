@@ -1,0 +1,5 @@
+FlightID,Origin,Destination,Capacity,Price,Date,Time,BookedSeats
+103,Cairo,Toronto,300,780,2026-06-15,,2
+104,Paris,Dubai,300,420,2026-07-01,13:45,1
+105,Cairo,Seoul,180,700,2026-06-19,15:45,0
+101,Cairo,Bangkok,180,600,2026-06-13,02:30,0

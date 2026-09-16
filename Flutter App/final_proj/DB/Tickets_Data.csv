@@ -1,0 +1,4 @@
+TicketID,PassengerID,FlightID,SeatNumber,Class,TotalLuggageWeight,TotalPrice
+3,1,103,1A,Business,55,3030
+4,1,104,5F,Business,10,1420
+9,1,103,6A,Economy,34,1480
