@@ -27,7 +27,6 @@ Airline-Reservation-System/
 ├── cpp_src/              # C++ backend — booking engine & core logic
 ├── Flutter App/
 │   └── final_proj/       # Flutter mobile application
-├── Presentation.pptx     # Project presentation slides
 └── README.md
 ```
 
