@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\airline_bridge.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\airline_bridge.dir/objects.a @CMakeFiles\airline_bridge.dir\objects1.rsp
-C:\msys64\mingw64\bin\c++.exe -shared -o C:\Users\11\Documents\OOP_Project\final_proj\windows\runner\libairline_bridge.dll -Wl,--out-implib,libairline_bridge.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\airline_bridge.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\airline_bridge.dir\linkLibs.rsp
