@@ -1,9 +1,29 @@
-# Airline-Reservation-System
+# Let's Travel – Airline Reservation System
 
-Let's Travel – Airline Reservation System is a robust, modular desktop application developed in modern C++ with an interactive Flutter GUI. Designed around core Object-Oriented Programming (OOP) and Software Architecture patterns, the platform manages comprehensive flight operations, user authentication, multi-tiered access, and persistent flight data.
-Key Features
-Role-Based Access Control: Three distinct authorization tiers—Passenger (search, book, luggage selection, cancellations), Admin (schedule flights, manage passenger records), and SuperAdmin (admin management, full system reset).
-Interactive Frontend: A cross-platform UI built with Flutter connected directly to the C++ core via Dart FFI (Foreign Function Interface) and native C-bridge bindings. 
-Booking & Dynamic Pricing Engine: Handles seat selection across Business and Economy classes, cabin/checked luggage weight constraints, and automatic overweight fee calculations.
-Data Persistence: Integrated FileManager repository layer that reads, writes, and synchronizes system states, flights, and tickets with CSV files across restarts. 
-Robust Software Architecture: Utilizes industry design patterns including Singleton (SystemManager), Factory Method (User creation), Adapter (C++ to Dart FFI bridge), and Template Method.  
+A modular desktop application developed in **C++** featuring an interactive **Flutter GUI**. The system applies Object-Oriented Programming (OOP) principles and design patterns to manage flight operations, user authentication, seat reservations, and persistent storage.
+
+---
+
+## Features
+
+- **Role-Based Access Control:**
+  - **Passenger:** Search and view flights, book seats (Business/Economy), manage luggage, and cancel tickets.
+  - **Admin:** Add/cancel flights, manage passenger records, and view system overviews.
+  - **SuperAdmin:** Manage administrator accounts and perform factory system resets.
+- **Frontend & Bridge:** Built with **Flutter** and connected to native C++ logic via **Dart FFI** and a dedicated C-bridge layer (`bridge.cpp` / `bridge.h`).
+- **Luggage & Pricing Logic:** Real-time calculation of total ticket fares based on class upgrades and excess baggage weight fees.
+- **Data Persistence:** Integrated `FileManager` reads and writes all records (flights, users, tickets, luggage) using CSV files.
+- **System Architecture & Patterns:**
+  - **Singleton Pattern:** `SystemManager` provides a centralized in-memory data store.
+  - **Factory Pattern:** `User::build()` handles validated role-based object instantiation.
+  - **Adapter Pattern:** Exposes clean C interfaces for Dart FFI communication.
+
+---
+
+## Contributors (Egypt University of Informatics)
+
+- **Ahmed Mohamed** – GUI & Bridge Implementation
+- **Jana Ahmed** – Admin Class, SystemManager & UML Architecture
+- **Ahmed Hesham** – File Manager & Authentication System
+- **Lila Mostafa** – User Class, SystemManager Class & UML Architecture
+- **Kenzy Elborollosy** – Flight, Luggage, Ticket, SuperAdmin, UserFactory & Testing
